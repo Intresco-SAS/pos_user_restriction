@@ -6,6 +6,4 @@
             name="groups_id"
         />
     </record>
-    <menuitem id = "bi_pos_reports.menu_report_parent"
-              groups = "pos_user_restriction.group_assigned_points_of_sale_user"/>
 </odoo>
