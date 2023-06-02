@@ -12,7 +12,11 @@
     "license": "LGPL-3",
     "application": False,
     "installable": True,
-    "depends": ["point_of_sale"],
+    "depends": ["point_of_sale", 
+                "pos_restaurant",
+                "bi_pos_multi_shop",
+                "l10n_co_pos_res_partner",
+                "bi_pos_reports",],
     "data": [
         "security/pos_security.xml",
         "security/ir.model.access.csv",
