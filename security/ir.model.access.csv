@@ -27,11 +27,11 @@ access_pos_payment_method_user,pos.payment.method user,point_of_sale.model_pos_p
 access_decimal_precision_user,decimal.precision,base.model_decimal_precision,group_assigned_points_of_sale_user,1,0,0,0
 access_money_in_out_wizard,access.money.in.out.wizard,point_of_sale.model_cash_box_out,group_assigned_points_of_sale_user,1,1,1,0
 access_pos_payment_user,pos.payment user,point_of_sale.model_pos_payment,group_assigned_points_of_sale_user,1,1,1,1
-access_pos_details_wizard,access.pos.details.wizard,pos.details.wizard,group_assigned_points_of_sale_user,1,1,1,0
-access_stock_production.lot,access.stock.production.lot,stock.production.lot,group_assigned_points_of_sale_user,1,1,1,1
-access_restaurant_printer,access.restaurant.printer,restaurant.printer,group_assigned_points_of_sale_user,1,1,1,1
-access_restaurant_table,access.restaurant.table,restaurant.table,group_assigned_points_of_sale_user,1,1,1,1
-access_restaurant_floor,access.restaurant.floor,restaurant.floor,group_assigned_points_of_sale_user,1,1,1,1
-access_res_country_state_city,access.res.country.state.city,res.country.state.city,group_assigned_points_of_sale_user,1,1,1,0
-access_res_partner_profession,access.res.partner.profession,res.partner.profession,group_assigned_points_of_sale_user,1,1,1,0
-access_pos_multi_shop,access.pos.multi.shop,pos.multi.shop,group_assigned_points_of_sale_user,1,1,1,0
+access_pos_details_wizard,access.pos.details.wizard,point_of_sale.model_pos_details_wizard,group_assigned_points_of_sale_user,1,1,1,0
+access_stock_production.lot,access.stock.production.lot,stock.model_stock_production_lot,group_assigned_points_of_sale_user,1,1,1,1
+access_restaurant_printer,access.restaurant.printer,pos_restaurant.model_restaurant_printer,group_assigned_points_of_sale_user,1,1,1,1
+access_restaurant_table,access.restaurant.table,pos_restaurant.model_restaurant_table,group_assigned_points_of_sale_user,1,1,1,1
+access_restaurant_floor,access.restaurant.floor,pos_restaurant.model_restaurant_floor,group_assigned_points_of_sale_user,1,1,1,1
+access_res_country_state_city,access.res.country.state.city,l10n_co_res_partner.model_res_country_state_city,group_assigned_points_of_sale_user,1,1,1,0
+access_res_partner_profession,access.res.partner.profession,l10n_co_e-invoice.model_res_partner_profession,group_assigned_points_of_sale_user,1,1,1,0
+access_pos_multi_shop,access.pos.multi.shop,bi_pos_multi_shop.model_pos_multi_shop,group_assigned_points_of_sale_user,1,1,1,0
